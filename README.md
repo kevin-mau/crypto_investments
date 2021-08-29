@@ -29,6 +29,12 @@ pathlib
 ```
 
 ## Usage:
+In the jupyter notebook, we begin by loading in the price change percentages data of the cryptocurrencies.
+```python
+  df_market_data = pd.read_csv(
+    Path("Resources/crypto_market_data.csv"),
+    index_col="coin_id")
+```
 
 We will create the interactive plots and put them side-by-side for visual comparison:
 ![elbow_curves](https://github.com/kevin-mau/crypto_investments/blob/main/Resources/elbow_curves.png?raw=true)
