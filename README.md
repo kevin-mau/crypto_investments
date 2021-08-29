@@ -36,6 +36,9 @@ In the jupyter notebook, we begin by loading in the price change percentages dat
     index_col="coin_id")
 ```
 
+We will create a dataframe from the CSV data which we will use for analysis.  Here is a visualization of the dataframe:
+![crypto_data](https://github.com/kevin-mau/crypto_investments/blob/main/Resources/crypto_data.png?raw=true)
+
 We will create the interactive plots and put them side-by-side for visual comparison:
 ![elbow_curves](https://github.com/kevin-mau/crypto_investments/blob/main/Resources/elbow_curves.png?raw=true)
 ![scatter_plots](https://github.com/kevin-mau/crypto_investments/blob/main/Resources/scatter_plots.png?raw=true)
